@@ -1,0 +1,26 @@
+1-Utilizando os padrões e conceitos de encapsulamento vistos em sala de aula, refatorar as classes Jogador.java, Time.java
+
+
+2-Código base: https://github.com/salgado/lasalle.oop.2021.2/tree/main/semana4
+
+
+3-Incluir nesse sistema uma classe nova chamada de Escalacao.java
+- A escalação de um time pode ter no máximo 5 jogadores e 1 Time
+- A escalação também deverá ter um método imprimir() que imprime o time e a escalação atual exemplo:
+Time: Flamengo
+-------------------------
+1-Raul
+2-Zico
+3-Junior
+4-Andrade
+5-Nunes
+
+
+4-Criar uma classe para testar. Nesse TesteEscalacao.java, deve conter:
+- Criação de 5 jogadores
+- Criação de 1 Time
+- Escalação do Time, com os 5 jogadores e a data do jogo
+- Imprimir a escalação criada
+
+
+5-Crie uma pasta TrabalhoRefatoracao dentro do seu repositório do github e envie o seu código refatorado nessa nova pasta.
