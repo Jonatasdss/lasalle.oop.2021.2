@@ -1,7 +1,6 @@
 package Semana9;
 
 import javax.swing.*;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -50,15 +49,15 @@ public class Calc implements ActionListener {
         btnSomar.addActionListener(this);
         painel.add(btnSomar);
 
-        btnSubtracao = new JButton("Subtração (-)");
+        btnSubtracao = new JButton("Subtrair (-)");
         btnSubtracao.addActionListener(this);
         painel.add(btnSubtracao);
 
-        btnDivisao = new JButton("Divisão (/)");
+        btnDivisao = new JButton("Dividir (/)");
         btnDivisao.addActionListener(this);
         painel.add(btnDivisao);
 
-        btnMultiplicacao = new JButton("Multiplicação (*)");
+        btnMultiplicacao = new JButton("Multiplicar (*)");
         btnMultiplicacao.addActionListener(this);
         painel.add(btnMultiplicacao);
 
@@ -100,7 +99,6 @@ public class Calc implements ActionListener {
         }
     }
 
-    
     public static void main(String[] args) {
         new Calc();
     }
